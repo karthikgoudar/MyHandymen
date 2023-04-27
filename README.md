@@ -3,6 +3,12 @@
 
 This is a web application that connects users with local handymen for home repairs and maintenance. Users can create an account, browse available handymen, and book services.
 
+## Screenshots
+Here are some screenshots of the game:
+![Title Screen](screenshots/title_screen.png)
+![Gameplay](screenshots/gameplay.png)
+![Game Over Screen](screenshots/game_over_screen.png)
+
 ## Installation
 
 To run the application locally, you will need to install the following dependencies:
