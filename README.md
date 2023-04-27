@@ -4,13 +4,15 @@
 This is a web application that connects users with local handymen for home repairs and maintenance. Users can create an account, browse available handymen, and book services.
 
 ## Screenshots
-Here are some screenshots of the app:
-![Home](screenshots/home.png)
-![Also Home](screenshots/alsohome.png)
-![Profile](screenshots/profile.png)
-![Edit Profile](screenshots/editprofile.png)
-![Signup](screenshots/signup.png)
-![Login](screenshots/login.png)
+<!-- Slideshow -->
+<div align="center">
+  <img src="screenshots/home.pngg" width="45%" alt="Home">
+  <img src="screenshots/alsohome.png" width="45%" alt="Home">
+  <img src="screenshots/profile.png" width="45%" alt="profile">
+  <img src="screenshots/editprofile.png" width="45%" alt="edit profile">
+  <img src="screenshots/signup.png" width="45%" alt="signup">
+  <img src="screenshots/login.png" width="45%" alt="login">
+</div>
 
 ## Installation
 
