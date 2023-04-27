@@ -6,7 +6,11 @@ This is a web application that connects users with local handymen for home repai
 ## Screenshots
 <!-- Slideshow -->
 <div align="center">
-  <img src="screenshots/home.png" width="45%" alt="Home">
+ 
+</div>
+<!-- Horizontal scrolling slideshow -->
+<div style="display: flex; overflow-x: auto; white-space: nowrap;">
+   <img src="screenshots/home.png" width="45%" alt="Home">
   <img src="screenshots/alsohome.png" width="45%" alt="Home">
   <img src="screenshots/profile.png" width="45%" alt="profile">
   <img src="screenshots/editprofile.png" width="45%" alt="edit profile">
