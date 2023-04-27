@@ -4,7 +4,7 @@
 This is a web application that connects users with local handymen for home repairs and maintenance. Users can create an account, browse available handymen, and book services.
 
 ## Screenshots
-Here are some screenshots of the game:
+Here are some screenshots of the app:
 ![Home](screenshots/home.png)
 ![Also Home](screenshots/alsohome.png)
 ![Profile](screenshots/profile.png)
