@@ -5,9 +5,12 @@ This is a web application that connects users with local handymen for home repai
 
 ## Screenshots
 Here are some screenshots of the game:
-![Title Screen](screenshots/title_screen.png)
-![Gameplay](screenshots/gameplay.png)
-![Game Over Screen](screenshots/game_over_screen.png)
+![Home](screenshots/home.png)
+![Also Home](screenshots/alsohome.png)
+![Profile](screenshots/profile.png)
+![Edit Profile](screenshots/editprofile.png)
+![Signup](screenshots/signup.png)
+![Login](screenshots/login.png)
 
 ## Installation
 
