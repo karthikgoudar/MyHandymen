@@ -3,21 +3,6 @@
 
 This is a web application that connects users with local handymen for home repairs and maintenance. Users can create an account, browse available handymen, and book services.
 
-## Screenshots
-<!-- Slideshow -->
-<div align="center">
- 
-</div>
-<!-- Horizontal scrolling slideshow -->
-<div style="display: flex; overflow-x: auto; white-space: nowrap;">
-   <img src="screenshots/home.png" width="45%" alt="Home">
-  <img src="screenshots/alsohome.png" width="45%" alt="Home">
-  <img src="screenshots/profile.png" width="45%" alt="profile">
-  <img src="screenshots/editprofile.png" width="45%" alt="edit profile">
-  <img src="screenshots/signup.png" width="45%" alt="signup">
-  <img src="screenshots/login.png" width="45%" alt="login">
-</div>
-
 ## Installation
 
 To run the application locally, you will need to install the following dependencies:
@@ -40,6 +25,17 @@ To use the application, navigate to http://localhost:5000/ in your web browser. 
 ## Contributing
 
 If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
+
+## Screenshots
+
+Here are some screenshots of the application:
+![Home](screenshots/home.png)
+![home](screenshots/alsohome.png)
+![profile](screenshots/profile.png)
+![editprofile](screenshots/editprofile.png)
+![sign up](screenshots/signup.png)
+![login](screenshots/login.png)
+
 
 ## License
 
