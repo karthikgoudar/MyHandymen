@@ -1,0 +1,58 @@
+{% extends "base.html" %} {% block title %}Login{% endblock %}
+{% block content%}
+<body class="text-center">
+<form method="POST">
+    <!-- Section: Design Block -->
+    <section class="text-center ">
+        <!-- Background image -->
+        <div class="p-5 bg-image rounded mx-auto d-block" style="
+        background-image: url('https://img.freepik.com/free-vector/builders-construction-workers-helmets_107791-12576.jpg?w=900&t=st=1674914435~exp=1674915035~hmac=3508e4d84e6274e7a8b65ebc1cf732109f1c1c579b19bfb7a9de0cac8226f9a4');
+                         height: 300px; width: 1000px; background-position: center center;
+        "></div>
+        <div class="card mx-4 mx-md-5 shadow-5-strong" style="
+        margin-top: -140px;
+        background: hsla(0, 0%, 100%, 0.8);
+        backdrop-filter: blur(40px);
+        ">
+            <div class="card-body py-5 px-md-5">
+
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="fw-bold mb-5">Login</h2>
+
+                                <div class="form-outline mb-3">
+                                    <label class="form-label" for="email"></label>
+                                    <input
+                                            type="email"
+                                            class="form-control"
+                                            id="email"
+                                            name="email"
+                                            placeholder="Email"
+                                    />
+
+                                </div>
+
+                                <div class="form-outline mb-3">
+                                    <label class="form-label" for="password"></label>
+                                    <input
+                                            type="password"
+                                            class="form-control"
+                                            id="password"
+                                            name="password"
+                                            placeholder="Password"
+                                    />
+
+                                </div>
+                        <br />
+
+                        <button type="submit" class="btn btn-primary" style="width: 200px">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</form>
+</body>
+{% endblock %}

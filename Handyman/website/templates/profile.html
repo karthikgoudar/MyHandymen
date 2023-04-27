@@ -1,0 +1,52 @@
+{% extends "base.html"%} {% block title %}profile{% endblock %}
+{% block content%}
+
+
+<form method="GET">
+<div class="container">
+    <br />
+    <div class="row ">
+        <div class="col-md-7 col-lg-4 mb-5 mb-lg-0 wow fadeIn">
+            <div class="card border-0 shadow">
+                <img 
+                {% if handymaninfo is not none %}
+                    {% if handymaninfo.profileimage is none %}
+                        src="https://www.bootdey.com/img/Content/avatar/avatar6.png"
+                    {% else %}
+                        src="data:profileimage/png;base64,{{ profileimage }}"
+                    {% endif %}
+                {% else %}
+                    src="https://www.bootdey.com/img/Content/avatar/avatar6.png"
+                {% endif %}
+                    alt="...">
+                <div class="card-body p-1-9 p-xl-5">
+                    <div class="mb-3 justify-content-center">
+                        <h3 class="h4 mb-0">{{handymaninfo.firstname1}}</h3>
+                        <span class="text-primary ">{{handymaninfo.professioncategory}}</span>
+                        <br />
+                        <span class="text-primary">{{handymaninfo.price_per_hour}} Rs/hr</span>
+                    </div>
+                    <ul class="list-unstyled mb-5 justify-center">
+                        <li class="mb-3"><a href="#!"><i class="far fa-envelope display-25 me-3 text-secondary"></i>{{handymaninfo.email1}}</a></li>
+                        <li class="mb-3"><a href="#!"><i class="fas fa-mobile-alt display-25 me-3 text-secondary"></i>{{handymaninfo.phone}}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-8">
+            <div class="ps-lg-1-6 ps-xl-5">
+                <div class="mb-5 wow fadeIn">
+                    <div class="text-start mb-1-6 wow fadeIn">
+                        <h2 class="h1 mb-0 text-primary">#About Me</h2>
+                    </div>
+                    <br />
+                    <p> {{handymaninfo.description}}</p>
+                </div>
+
+                <a href="/editprofile" class="btn btn-primary" role="button">Edit profile</a>
+        </div>
+    </div>
+</div>
+</div>
+</form>
+{% endblock %}
